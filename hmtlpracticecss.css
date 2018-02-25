@@ -28,6 +28,11 @@ body{
     background-size: cover;
 }
 
+#welcome{
+    text-align: center;
+
+}
+
 .navigation {
     display:block;
     border: 1px solid
@@ -43,6 +48,14 @@ body{
 }
 
 .photos li{
-    display: inline;
+    display: flex;
     padding-left: 12px;
+}
+#aboutus{
+    font-style:italic;
+
+}
+
+#contact{
+    font-style:italic;
 }
