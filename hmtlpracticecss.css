@@ -33,14 +33,17 @@ body{
 
 }
 
-.navigation {
-    display:block;
-    border: 1px solid
-    background: purple;
-    justify-content: center;
+nav li {
+    display:inline;
+    margin: 0 5px;
+
 
 }
 
+nav ul {
+    width:300px;
+    margin: 0 auto;
+    font-size: 20px;
 
 .photos{
     list-style-type: none;
@@ -51,11 +54,11 @@ body{
     display: flex;
     padding-left: 12px;
 }
-#aboutus{
+#about {
     font-style:italic;
 
 }
 
-#contact{
+#contact {
     font-style:italic;
 }
